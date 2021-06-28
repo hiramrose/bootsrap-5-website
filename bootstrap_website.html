@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web - Bootstrap</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://preview.pixlr.com/images/800wm/1070/1/1070107833.jpg" alt="logo.jpg" height="30"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Frontend</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Backend</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Cerrar Sesión
+            </span>
+          </div>
+        </div>
+    </nav>
+  
+    <div class="container-lg">
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title text-primary text-center">Formulario de registro</h5>
+                  <hr>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre(s)">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput2" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellidos">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="fecha_nacimiento"> Fecha de Nacimiento: </label>
+                    <input type="date" class="form-control" name="fecha_nacimiento" required="true"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput3" class="form-label">Alcaldía o Municipio</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Alcaldía o municipio">
+                  </div>
+                  <form class="row g-2">
+                  <div class="col-6">
+                    <label for="formGroupExampleInput4" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="12345">
+                  </div>
+                  <div class="col-6">
+                    <label for="formGroupExampleInput5" class="form-label">Núm. Exterior</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="5588220044">
+                    <p></p>
+                    <a href="#" class="btn btn-primary">Enviar datos</a>
+                  </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+        
+          <div class="col-8">
+            <section id="content">
+                <article class="article">
+                    <p></p>
+                    <h2 class="text-primary">Saca tu espíritu tiki en Waikiki Tiki Room</h2>
+                    <button type="button" class="btn btn-primary">Artículo</button>
+                    <hr>
+                    <h4>Una nueva experiencia</h4>
+                    <p>Una espacio tiki para sentirse en plena fiesta playera desde la ciudad, 
+                        donde algunos cocteles tienen fuego, otros jarabes tropicales y la comida 
+                        es un juego mediterráneo del chef Tomás Bermudez, de La Docena. 
+                        Waikiki Tiki Room es uno de los últimos conceptos nocturnos traídos por 
+                        Walter Meyenberg con decoración hawaiana impecable.</p>
+                </article>
+            </section>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i0.wp.com/crealiacoach.com/web/wp-content/uploads/2017/04/chica-verano-pixabay-800x800.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Prepárate para viajar</h5>
+                          <p class="card-text">Que la nueva normalidad no apague tu espíritu aventurero.</p>
+                          <a href="#" class="btn btn-warning">Ver más</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://assets.metrolatam.com/do/2015/08/07/screen-shot-2015-08-06-at-7-43-07-pm-800x800.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Con la naturaleza</h5>
+                          <p class="card-text">Es momento de volver a respirar aire puro en los mejores destinos.</p>
+                          <a href="#" class="btn btn-danger">Ver más</a>
+                        </div>
+                      </div>
+                </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-12 text-center">
+        <footer>
+            <hr>
+           <p>Página web 2021 </p> 
+        </footer>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
